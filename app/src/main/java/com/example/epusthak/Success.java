@@ -4,14 +4,85 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Success extends AppCompatActivity {
+  public String BookNames=" Sainath";
+  int count=0;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_success);
+        Button cart1=findViewById(R.id.cart1);
+        cart1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                BookNames=  BookNames.concat(" ,Bhagvath Geetha");
+
+                Toast.makeText(Success.this,"Bhagavath Geetha added to the cart",Toast.LENGTH_LONG).show();
+            }
+        });
+        Button cart2=findViewById(R.id.cart2);
+        cart2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                BookNames=BookNames.concat(" ,Ram Charithra Manas");
+
+
+
+
+
+                Toast.makeText(Success.this," ,Ram Charitra Manas added to the cart",Toast.LENGTH_LONG).show();
+            }
+        });
+        Button cart3=findViewById(R.id.cart3);
+        cart3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                BookNames=  BookNames.concat(" ,Ramayan");
+
+
+
+
+
+
+                Toast.makeText(Success.this,"Ramayan added to the cart",Toast.LENGTH_LONG).show();
+            }
+        });
+        Button cart4=findViewById(R.id.cart4);
+        cart4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                BookNames=BookNames.concat(" ,Mahabharath");
+
+
+
+
+                Toast.makeText(Success.this,"Mahabharath added to the cart",Toast.LENGTH_LONG).show();
+            }
+        });
+        Button viewCart=findViewById(R.id.viewCart);
+        viewCart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               Intent i =new Intent(Success.this,Cart.class);
+                Bundle b = new Bundle();
+               b.putString("booknames",BookNames);
+                i.putExtras(b);
+                startActivity(i);
+            }
+        });
     }
     public void BhagG(View v)
     {

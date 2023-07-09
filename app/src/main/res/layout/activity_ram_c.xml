@@ -50,5 +50,5 @@ The Ramcharitmanas is written in vernacular Awadhi language. The core of the wor
         android:layout_marginTop="621dp"
         android:layout_marginEnd="165dp"
         android:backgroundTint="#FF9800"
-        android:text="Pay ₹160/-" />
+        android:text="Read Now" />
 </RelativeLayout>

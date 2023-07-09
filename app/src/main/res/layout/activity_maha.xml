@@ -49,5 +49,5 @@
         android:layout_marginTop="648dp"
         android:layout_marginEnd="169dp"
         android:backgroundTint="#FF9800"
-        android:text="Pay ₹130/-" />
+        android:text="Read Now" />
 </RelativeLayout>
