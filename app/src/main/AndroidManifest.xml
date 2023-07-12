@@ -17,6 +17,9 @@
         android:theme="@style/Theme.Epusthak"
         tools:targetApi="31">
         <activity
+            android:name=".Atharv"
+            android:exported="false" />
+        <activity
             android:name=".Cart"
             android:exported="false" />
         <activity

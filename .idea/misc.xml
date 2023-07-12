@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Epusthak/app/src/main/res/layout/activity_atharv.xml" value="0.17119565217391305" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Epusthak/app/src/main/res/layout/activity_bhag.xml" value="0.1" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Epusthak/app/src/main/res/layout/activity_bhagpdf.xml" value="0.1" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Epusthak/app/src/main/res/layout/activity_bhagpdfview.xml" value="0.1" />
@@ -14,7 +15,7 @@
         <entry key="..\:/Users/hp/AndroidStudioProjects/Epusthak/app/src/main/res/layout/activity_ram_c.xml" value="0.1" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Epusthak/app/src/main/res/layout/activity_sign_in.xml" value="0.1" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Epusthak/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/Epusthak/app/src/main/res/layout/activity_success.xml" value="0.20426287744227353" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/Epusthak/app/src/main/res/layout/activity_success.xml" value="0.13728813559322034" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/Epusthak/app/src/main/res/layout/sign_up.xml" value="0.14130434782608695" />
       </map>
     </option>

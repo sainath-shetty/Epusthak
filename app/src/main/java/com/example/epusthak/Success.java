@@ -14,7 +14,7 @@ import java.util.Arrays;
 
 public class Success extends AppCompatActivity {
   public String BookNames=" Sainath";
-  int count=0;
+
 
 
     @Override
@@ -22,6 +22,8 @@ public class Success extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_success);
         Button cart1=findViewById(R.id.cart1);
+
+
         cart1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -72,6 +74,20 @@ public class Success extends AppCompatActivity {
                 Toast.makeText(Success.this,"Mahabharath added to the cart",Toast.LENGTH_LONG).show();
             }
         });
+
+        Button cart5=findViewById(R.id.cart5);
+        cart5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                BookNames=BookNames.concat(" ,Atharved");
+
+
+
+
+                Toast.makeText(Success.this,"Atharved added to the cart",Toast.LENGTH_LONG).show();
+            }
+        });
         Button viewCart=findViewById(R.id.viewCart);
         viewCart.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -81,6 +97,7 @@ public class Success extends AppCompatActivity {
                b.putString("booknames",BookNames);
                 i.putExtras(b);
                 startActivity(i);
+
             }
         });
     }
@@ -99,6 +116,11 @@ public class Success extends AppCompatActivity {
     }
     public void ramC(View v){
         Intent i=new Intent(this,ramC.class);
+        startActivity(i);
+    }
+    public void atharv(View v)
+    {
+        Intent i=new Intent(this,Atharv.class);
         startActivity(i);
     }
     }

@@ -22,5 +22,6 @@ public class Bhagpdf extends AppCompatActivity {
     else if(book.equals("Bhag")) pdfView.fromAsset("Bhag.pdf").load();
     else if(book.equals("RamC")) pdfView.fromAsset("ramC.pdf").load();
     else if(book.equals("maha")) pdfView.fromAsset("maha.pdf").load();
+    else if(book.equals("atharv")) pdfView.fromAsset("arthved.pdf").load();
     }
 }

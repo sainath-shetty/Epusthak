@@ -126,7 +126,7 @@
                 android:layout_marginTop="1026dp"
                 android:layout_marginEnd="296dp"
                 android:fontFamily="sans-serif-condensed-medium"
-                android:text="Arthved"
+                android:text="Atharved"
                 android:textSize="18dp" />
 
             <TextView
@@ -163,7 +163,7 @@
                 android:layout_marginTop="1063dp"
                 android:layout_marginEnd="284dp"
                 android:backgroundTint="#FF9800"
-                android:onClick="maha"
+                android:onClick="atharv"
                 android:text="Read" />
 
             <Button
@@ -191,7 +191,7 @@
                 android:layout_marginEnd="8dp"
                 android:backgroundTint="#FF9800"
 
-                android:onClick="maha"
+
                 app:icon="@drawable/cart"
 
                 />
@@ -207,7 +207,7 @@
                 android:layout_marginEnd="218dp"
                 android:backgroundTint="#FF9800"
 
-                android:onClick="maha"
+
                 app:icon="@drawable/cart"
 
                 />
@@ -223,7 +223,7 @@
                 android:layout_marginEnd="209dp"
                 android:backgroundTint="#FF9800"
 
-                android:onClick="maha"
+
                 app:icon="@drawable/cart"
 
                 />
@@ -246,7 +246,7 @@
                 android:layout_height="38dp"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginTop="400dp"
+                android:layout_marginTop="398dp"
                 android:layout_marginEnd="68dp"
                 android:backgroundTint="#FF9800"
                 android:onClick="ramC"
