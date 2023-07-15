@@ -194,7 +194,7 @@ public class Cart extends AppCompatActivity {
         Athb.setVisibility(View.GONE);
 
         Dath.setVisibility(View.GONE);
-        book=book.replace("Mahabharath","");
+        book=book.replace("Atharved","");
         Intent i=new Intent(Cart.this,Success.class);
         Bundle b = new Bundle();
         b.putString("books",book);
